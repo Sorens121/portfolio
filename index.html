@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jagamohan Soren</title>
+
+      <!-- Custom fonts for this theme -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="page-top">
+    <!-- Navigation bar -->
+    <div class="navheader fixed-top responsive-box" id="main-nav">
+        <div class="container nav-bar">
+            <a class="logo" href="#intro">Sorens121</a>
+            <div class="menu-toggle"onClick="onMenuclick()">
+                    <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
+                </div>
+            <nav class="nav-scroll">
+                <ul onClick="onClick(event)" id="navlist">
+                    <li><a class="active" href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- Masthead -->
+    <header class="masthead bg-primary text-white text-center" id="intro">
+        <div class="container align-items-center flex-column">
+            <img class="masthead-avatar mb-5" src="images/avatar.svg" alt="">
+            <h1 class="masthead-heading mb-0">Hi ! My name is Jagamohan</br> Welcome to my website</h1>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <p>I'm a full stack Web Developer. To find all projects visit my github link below</p>
+            <div class="text-center mt-4">
+                <a href="" class="btn btn-xl btn-outline-light">
+                    <i class="fa fa-link mr-2">
+                        GitHub
+                    </i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="blank-space"></div>
+    <div class="blank-space"></div>
+    <!-- Portfolio Section-->
+    <section id="portfolio"class="page-section portfolio">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Listing of projects -->
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto portfolioModal" data-toggle="myModal1" id="portfolioModal1">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" data-text="User Form">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <!-- <i class="fas fa-plus fa-3x "></i> -->
+                            </div>
+                        </div>
+                        <img src="images/portfolio/image1.png" alt="" class="img-fluid" >
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto portfolioModal" data-toggle="myModal2" id="portfolioModal2">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" data-text="User Registration">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <!-- <i class="fas fa-plus fa-3x"></i> -->
+                            </div>
+                        </div>
+                        <img src="images/portfolio/image2.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto portfolioModal" data-toggle="myModal3" id="portfolioModal3">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" data-text="Recipe book">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <!-- <i class="fas fa-plus fa-3x"></i> -->
+                            </div>
+                        </div>
+                        <img src="images/portfolio/image3.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto portfolioModal" data-toggle="myModal4" id="portfolioModal4">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" data-text="games">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <!-- <i class="fas fa-plus fa-3x"></i> -->
+                            </div>
+                        </div>
+                        <img src="images/portfolio/image4.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto portfolioModal" data-toggle="myModal5" id="portfolioModal5">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" data-text="Node mailer">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <!-- <i class="fas fa-plus fa-3x"></i> -->
+                            </div>
+                        </div>
+                        <img src="images/portfolio/image5.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto portfolioModal" data-toggle="myModal6" id="portfolioModal6">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" data-text="Programming contest">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <!-- <i class="fas fa-plus fa-3x"></i> -->
+                            </div>
+                        </div>
+                        <img src="images/portfolio/image6.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Section-->
+    <div class="blank-space"></div>
+    <div class="blank-space"></div>
+    <section id="about"class="page-section bg-primary text-white mb-0">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">About</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 ml-auto">
+                    <h2 style="padding-bottom: 18px">Who am I?</h2>
+                    <p>Information Technology graduate with 2+ years of tech support experience.
+                        Strong in design and integration with intuitive problem-solving skills.
+                        Proficient in JAVA, JAVASCRIPT and NOSQL. Passionate about implementing and
+                        launching new projects. My main interest is backend support with
+                        Nodejs, Express and MongoDB. Ability to translate business requirements into
+                        technical solutions. Looking to start the career as a software engineer with a reputed firm or an individual driven by technology.</p>
+                </div>
+                <div class="col-sm-12 ml-auto">
+                    <div class="card portfolioModal" data-toggle="myModal7">
+                        <div class="card-content">
+                            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Skills</h2>
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
+                                <div class="divider-custom-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <div class="row text-center">
+                                <div class="col-sm-2">
+                                    <img src="/images/assets/html5.png" alt="" class="responsive-img">HTML5
+                                </div>
+                                <div class="col-sm-2">
+                                    <img src="/images/assets/css3.png" alt="" class="responsive-img">CSS3
+                                </div>
+                                <div class="col-sm-2">
+                                    <img src="/images/assets/javascript.png" alt="" class="responsive-img">JAVASCRIPT
+                                </div>
+                                <div class="col-sm-2">
+                                    <img src="/images/assets/angular.png" alt="" class="responsive-img">ANGULAR
+                                </div>
+                                    <div class="col-sm-2">
+                                        <img src="/images/assets/mongodb.png" alt="" class="responsive-img">MONGODB
+                                    </div>
+                                <div class="col-sm-2">
+                                    <img src="/images/assets/nodejs.png" alt="" class="responsive-img">NODEJS
+                                </div>
+                                <div class="col-sm-2">
+                                    <img src="/images/assets/java.png" alt="" class="responsive-img">JAVA
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="" class="btn btn-xl btn-outline-light">
+                    <i class="fas fa-download mr-2">
+                        Download Resume
+                    </i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <div class="blank-space"></div>
+    <section id="contact"class="page-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2>Let's Get In Touch</h2>
+                    <div class="divider-custom">
+                        <div class="divider-custom-line"></div>
+                        <div class="divider-custom-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="divider-custom-line"></div>
+                    </div>
+                    <p class="text-muted mb-5">
+                        "Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible"
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 ml-auto text-center mb-5">
+                    <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+                    <div>+(91) 7259315011</div>
+                </div>
+                <div class="col-lg-4 mr-auto text-center">
+                    <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+                    <a href="mailto:sorens121@gmail.com" class="d-block">
+                        <div style="color: blue">sorens121@gmail.com</div></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <div class="blank-space"></div>
+  <footer class="footer text-center">
+        <div class="container">
+          <div class="row">
+    
+            <!-- Footer Location -->
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <h4 class="text-uppercase mb-4">Location</h4>
+              <p class="lead mb-0">136 Doddathoguru, Electronic City</br>Bengaluru, Karnataka</p>
+            </div>
+    
+            <!-- Footer Social Icons -->
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <h4 class="text-uppercase mb-4">Around the Web</h4>
+              <a class="btn btn-outline-light btn-social mx-1" href="#">
+                <i class="fab fa-fw fa-github-square"></i>
+              </a>
+              <a class="btn btn-outline-light btn-social mx-1" href="#">
+                <i class="fab fa-fw fa-twitter"></i>
+              </a>
+              <a class="btn btn-outline-light btn-social mx-1" href="#">
+                <i class="fab fa-fw fa-google-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+    </footer>
+      <!-- Copyright section -->
+    <section class="copyright py-4 text-center text-white">
+        <div class="container">
+            <small>Copyright &copy; sorens121 2019</small>
+        </div>
+    </section>
+
+    <!-- Porfolio Modals -->
+      <!-- Portfolio Modal 1 -->
+      <div id="myModal1" class="modal">
+          <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Basic User form</h2>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                </div>
+              </div>
+              <div class="modal-body">
+                  <p>Userform web application has angularjs serving as it's frontend
+                        implementing form validation using both template driver as
+                        well as reactive. Nodejs, Express and MongoDb are serving 
+                        as the backend the user informations are stored in mongodb
+                        collection. It's a very simple application just to implement
+                        basic collection of information from the form and CRUD operations
+                        on database.</p>
+              </div>
+              <div class="modal-footer">
+                    <a href="" class="btn btn-xl btn-green">
+                        <i class="fa fa-link mr-2">
+                            GitHub
+                        </i>
+                    </a>    
+              </div>
+          </div>
+      </div>
+      <!-- Porfolio Modal 2 -->
+      <div id="myModal2" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2>User Registartion with Login/Logout</h2>
+                  <div class="divider-custom divider-light">
+                      <div class="divider-custom-line"></div>
+                      <div class="divider-custom-icon">
+                          <i class="fas fa-star"></i>
+                      </div>
+                      <div class="divider-custom-line"></div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                    <p>User registation form web application is implemented
+                            using MEAN stack. Angular is serving as the frontend and
+                            the back is handled by Node, Express and Mongo. The user
+                            registers via email & password which are saved in database
+                            but password is first encrypted using bcrypt and salt-secret.
+                            Also served side email validation is done. The web application
+                            also has the feature of login/logout. Angular frontend implements
+                            basic form validations. On login the user is taken to his/her profile
+                            page authentication via JWT and application implements prohibition
+                            to illegal routes.</p>
+                </div>
+                <div class="modal-footer">
+                      <a href="" class="btn btn-xl btn-green">
+                          <i class="fa fa-link mr-2">
+                              GitHub
+                          </i>
+                      </a>    
+                </div>
+            </div>
+        </div>
+      <!-- Portfolio Modal 3 -->
+      <div id="myModal3" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2>Forkify</h2>
+                  <div class="divider-custom divider-light">
+                      <div class="divider-custom-line"></div>
+                      <div class="divider-custom-icon">
+                          <i class="fas fa-star"></i>
+                      </div>
+                      <div class="divider-custom-line"></div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                    <p>Recipe book is a very simple website using HTML, CSS and javascript
+                            the recipe book is used to search recipes online via an API foodfork
+                            the information is then displayed in the html page using javascript.
+                            Website also has feature to change the amount of ingredients used in 
+                            original recipe based on numbers of servings. It also has the feature
+                            of adding those ingredients to shopping cart. This project was done
+                            during the course of learning javascript, order the items from cart
+                            is not implemented as it's just the frontend.
+                            </p>
+                </div>
+                <div class="modal-footer">
+                      <a href="" class="btn btn-xl btn-green">
+                          <i class="fa fa-link mr-2">
+                              GitHub
+                          </i>
+                      </a>    
+                </div>
+            </div>
+        </div>
+      <!-- Portfolio Modal 4 -->
+      <div id="myModal4" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2>Basic Games</h2>
+                  <div class="divider-custom divider-light">
+                      <div class="divider-custom-line"></div>
+                      <div class="divider-custom-icon">
+                          <i class="fas fa-star"></i>
+                      </div>
+                      <div class="divider-custom-line"></div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                    <p>These projects were done during the course of
+                            learning javascript. Few web based games were
+                            made using HTML, CSS and JavaScript. The list
+                            of games includes Rock-Paper-Scissor and Pig game
+                            (rolling dice).</p>
+                </div>
+                <div class="modal-footer">
+                      <a href="" class="btn btn-xl btn-green">
+                          <i class="fa fa-link mr-2">
+                              GitHub
+                          </i>
+                      </a>    
+                </div>
+            </div>
+        </div>
+      <!-- Portfolio Modal 5 -->
+      <div id="myModal5" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2>Send Email via Node app</h2>
+                  <div class="divider-custom divider-light">
+                      <div class="divider-custom-line"></div>
+                      <div class="divider-custom-icon">
+                          <i class="fas fa-star"></i>
+                      </div>
+                      <div class="divider-custom-line"></div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                    <p>Nodemailer module is built on Nodejs and Express. This application is used to send email via a contact form. It can be embedded into any portfolio website.</p>
+                </div>
+                <div class="modal-footer">
+                      <a href="" class="btn btn-xl btn-green">
+                          <i class="fa fa-link mr-2">
+                              GitHub
+                          </i>
+                      </a>    
+                </div>
+            </div>
+        </div>
+      <!-- Porfolio Modal 6 -->
+      <div id="myModal6" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2>Source Code</h2>
+                  <div class="divider-custom divider-light">
+                      <div class="divider-custom-line"></div>
+                      <div class="divider-custom-icon">
+                          <i class="fas fa-star"></i>
+                      </div>
+                      <div class="divider-custom-line"></div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                    <p>Includes source code for successful code submission of various competetive
+                        coding contest  and solution for questions asked in HackerRank, Codechef, GeeksforGeeks.</p>
+                </div>
+                <div class="modal-footer">
+                      <a href="" class="btn btn-xl btn-green">
+                          <i class="fa fa-link mr-2">
+                              GitHub
+                          </i>
+                      </a>    
+                </div>
+            </div>
+        </div>
+        <!-- Skills Modal -->
+        <div id="myModal7" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Languages & Technology</h2>
+                    <div class="divider-custom divider-light">
+                        <div class="divider-custom-line"></div>
+                            <div class="divider-custom-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                        <div class="divider-custom-line"></div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="skillbar-container">
+                        <div class="col-sm">
+                            <div class="skillbar clearfix" data-percent="45%">
+                                <div class="skillbar-title" style="background: #d35400;">
+                                    <span>HTML5</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #e67e22;"></div>
+                                <div class="skill-bar-percent">45%</div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                                <div class="skillbar clearfix" data-percent="35%">
+                                    <div class="skillbar-title" style="background: #00cc99;">
+                                        <span>CSS3</span>
+                                    </div>
+                                    <div class="skillbar-bar" style="background: #009973;"></div>
+                                    <div class="skill-bar-percent">35%</div>
+                                </div>
+                            </div>
+                        <div class="col-sm">
+                            <div class="skillbar clearfix" data-percent="60%">
+                                <div class="skillbar-title" style="background: #2980b9;">
+                                    <span>Javascript</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #3498db;"></div>
+                                <div class="skill-bar-percent">60%</div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="skillbar clearfix" data-percent="40%">
+                                <div class="skillbar-title" style="background: #2c3e50;">
+                                    <span>AngularJS</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #2c3e50;"></div>
+                                <div class="skill-bar-percent">40%</div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="skillbar clearfix" data-percent="40%">
+                                <div class="skillbar-title" style="background: #46465e;">
+                                    <span>NodeJS</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #5a68a5;"></div>
+                                <div class="skill-bar-percent">40%</div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="skillbar clearfix" data-percent="35%">
+                                <div class="skillbar-title" style="background: #27ae60;">
+                                    <span>MongoDB</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #2ecc71;"></div>
+                                <div class="skill-bar-percent">35%</div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="skillbar clearfix" data-percent="70%">
+                                <div class="skillbar-title" style="background: #333333;">
+                                    <span>Java</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #525252;"></div>
+                                <div class="skill-bar-percent">70%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    <!-- Bootsrap script-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+    <script type='text/javascript' src='main.js'></script>
+</body>
+</html>
