@@ -526,7 +526,7 @@ img.responsive-img {
     to{opacity: 1;}
 }
 
-@media(max-width: 768px){
+@media(max-width: 1170px){
     .container {
         max-width: 720px;
     }
